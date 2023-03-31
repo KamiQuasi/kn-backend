@@ -1,6 +1,6 @@
 {
   "tasks": {
     "serve": "deno run -A main.js",
-    "install": "deno install -A -n kn-backend main.js"
+    "build": "deno compile -A -o kn-backend main.js"
   }
 }
