@@ -1,5 +1,3 @@
-
-
 import { serve } from "https://deno.land/std@0.178.0/http/server.ts";
 import { PathParser } from "./src/PathParser.js";
 const port = Deno.env.get('PORT') ?? '8080';
