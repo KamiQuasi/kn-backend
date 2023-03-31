@@ -1,7 +1,7 @@
 FROM quay.io/chapeaux/deno:latest
 
 WORKDIR /app
-COPY ./* ./
+COPY ./ ./
 
 ENV PORT 8080
 ENV DENO_DIR /app/cache
