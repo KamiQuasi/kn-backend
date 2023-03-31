@@ -7,6 +7,6 @@ ENV PORT 8080
 ENV DENO_DIR /app/cache
 EXPOSE 8080
 
-RUN deno task build
+RUN deno task install
 
 CMD ["kn-backend"]
