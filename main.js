@@ -9,7 +9,7 @@ const handler = (request) => {
   const status = 200;
   const headers = new Headers();
   headers.set('Content-Type','application/json');
-
+  asset.method = request.method;
   return new Response(JSON.stringify(asset), {status,headers} );
 }
 
