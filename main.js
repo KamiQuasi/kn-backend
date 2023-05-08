@@ -20,7 +20,7 @@ const handler = (request) => {
     default:
       // curl -X POST -H 'Content-Type:application/sparql-query' --data 'SELECT * WHERE { ?s ?p ?o } LIMIT 10' http://localhost:7878/query
       // curl -X POST -H 'Content-Type:application/sparql-query' --data 'SELECT * WHERE { ?s ?p ?o } LIMIT 10' http://localhost:7878/query
-      resp = new Response(JSON.stringify({asset:asset,method:request.method}), {status,headers} );
+      resp = new Response(JSON.stringify({archdiscussion:'HELLO RED HAT',asset:asset,method:request.method}), {status,headers} );
   }
   
   return resp;
